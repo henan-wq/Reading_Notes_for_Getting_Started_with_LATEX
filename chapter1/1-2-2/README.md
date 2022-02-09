@@ -1,16 +1,16 @@
 # 从提纲开始
 这应该只是一个提纲，不能直接排版：
 ```
-%-*- coding: UTF-8 -*-          注释：文件编码UTF-8
-% gougu.tex                 注释：源文件名gougu.tex
-% 勾股定理                  注释：源文件的内容
-\documentclass[UTF8{ctexart}    文档类，因为用到中文所以使用ctexart，还用到[UTF8]选项说明编码
+%-*- coding: UTF-8 -*-
+% gougu.tex
+% 勾股定理
+\documentclass[UTF8]{ctexart}
 
-\title{杂谈勾股定理}    文章标题
-\author{张三}           文章作者
-\date{\today}           写作日期（这些信息并不会马上出现在编译结果中，需要通过\maketitle 排版
+\title{杂谈勾股定理}
+\author{张三}
+\date{\today}
 
-\bibliographystyle{plain}   声明参考文献的格式
+\bibliographystyle{plain}
 
 \begin{document}
 
