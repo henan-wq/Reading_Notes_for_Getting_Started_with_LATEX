@@ -33,7 +33,7 @@
     - `\date{\today}`写作日期  
 
 - `\bibliographystyle{plain}`声明参考文献的格式  
-
+---
 document环境：  
 - `\begin{document}`与`\end{document}`声明了一个document环境，论文正文部分。  
 - `\maketitle`实际输出论文标题  
