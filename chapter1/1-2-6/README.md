@@ -37,7 +37,7 @@ ccccccccc
 ### 比较好的做法
 把图形放在一个“可以变动相对位置”的环境中，称为浮动体（float）。  
 浮动体：内部可以给图形加入说明性的标题。  
-例子中的插图：  
+例子中的插图，完整代码如下：  
 ```
 \begin{figure}[ht]
   \centering
@@ -46,6 +46,8 @@ ccccccccc
   \label{fig:xiantu}
 \end{figure}
 ```
+---
+
 代码解释：  
 - 使用了figure环境，就是插图使用的浮动体环境：  
 - `[ht]`是figure环境的可选参数，表示浮动体可以出现在“环境周围的文本所在处(here)和一页的顶部(top)”。  
@@ -55,8 +57,7 @@ ccccccccc
 \end{figure}
 ```
   
-`  \centering`声明，表示后面的内容居中。
-```
-  \centering
-```
-
+  `  \centering`声明，表示后面的内容居中:  
+`  \includegraphics[scale=0.6]{xiantu.pdf}`插入图形  
+`\caption`命令给插图加上自动编号和标题。  
+`\label`命令给图形定义了一个标签，使用这个标签可以在文章的其他地方引入`\caption`产生的编号（后面的章节“编号引用”）。  
